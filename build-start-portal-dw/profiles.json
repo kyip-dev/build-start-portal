@@ -3,25 +3,25 @@
 		"name": "localhost",
 		"db":
 		"url": "jdbc:oracle:thin:@localhost:1521:xe",
-		"user": "payme",
-		"password": "payme2012"
+		"user": "abc",
+		"password": "abc"
 	},
 	{
-		"name": "tagsit01",
+		"name": "sit01",
 		"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
-		"user": "payme_tagsit01",
-		"password": "payme_tagsit01"
+		"user": "sit01",
+		"password": "sit01"
 	},
 	{
-		"name": "tagsit02",
+		"name": "sit02",
 		"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
-		"user": "payme_tagsit02",
-		"password": "payme_tagsit02"
+		"user": "sit02",
+		"password": "sit02"
 	},
 	{
-		"name": "tagsit03",
+		"name": "sit03",
 		"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
-		"user": "payme_tagsit03",
-		"password": "payme_tagsit03"
+		"user": "sit03",
+		"password": "sit03"
 	}
 ]

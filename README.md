@@ -1,7 +1,7 @@
 build-start-portal
 ===============
 
-Dropwizard use yml rile to startup, and the yml will be auto generated after build.
+Dropwizard use yml file to startup, and the yml will be auto generated after build.
 During work I will need to update the yml time to time for connecting differernt enviornment which is time consuming.
 This tools to list out all the microservice projects and provide the functionality to build and start it with differernt enviornment profile.
 
