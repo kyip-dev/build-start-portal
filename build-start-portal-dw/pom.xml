@@ -29,7 +29,7 @@
 			<version>3.0</version>
 		</dependency>
 		<dependency>
-			<groupId>com.mpayme.dw</groupId>
+			<groupId>com.kyip.dw</groupId>
 			<artifactId>dw-common-util</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -40,7 +40,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.mpayme.util</groupId>
+			<groupId>com.kyip.util</groupId>
 			<artifactId>test-util</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
