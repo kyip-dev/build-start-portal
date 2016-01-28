@@ -1,0 +1,43 @@
+2015-10-26 11:08:44.054 [dw-30 - GET /kyip/v1/test?anyString=123] INFO  c.k.a.b.external.MainApplication - 3 * Server has received a request on thread dw-30 - GET /kyip/v1/test?anyString=123
+3 > GET http://localhost:13001/kyip/v1/test?anyString=123
+3 > Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+3 > Accept-Encoding: gzip, deflate, sdch
+3 > Accept-Language: en-US,en;q=0.8,ja;q=0.6
+3 > Connection: keep-alive
+3 > Cookie: ice.push.browser=1hkatwo17; __lc.visitor_id.2558511=S1376382475.d325797026; ice.connection.contextpath=.; ice.connection.lease=1380099711303; ice.notified.pushids=1hkatwo17%3A-1yu4; ice.pushids=1hkatwo17%3A-1yu5%201hkatwo17%3A-1yu4%201hkatwo17%3A-1yu3; lc_window_state=minimized; oam.Flash.RENDERMAP.TOKEN=gu7acnv6h; gdnC_2132_auth=e080BNMgRbLkzW5VzESeBSbJjLQZ62gpA60Qe3iSTHuktoIoL3%2BIrx93CT9M0%2FWmosQqxnF5fmYh3DatKkjX; gdnC_2132_st_t=1%7C1412741419%7C81ca20a217e36cdb3a670750951b8b87; gdnC_2132_st_p=1%7C1412741421%7C76145a8d6beba3045da0e98f6030367b; gdnC_2132_viewid=tid_1; gdnC_2132_seccode=9.09aeea740c15145f35; gdnC_2132_home_diymode=1; gdnC_2132_lip=%3A%3A1%2C1412741495; TJE=; LtpaToken2=NXXWvV1HeKCe3MJjLC+dFqQ7jdMn1Q6zjWF9bok6u9+cB0wOsq7+Z048JO+JPcttCc9y4aejLPts3EKBgZ2qY3Gp6SWHg9Gteim34/WEupmZI9h4shgyH8/6dMsbOeU5/g/HLW3PupAVTLYThf+MWhflHdMcBjn589jU2K5B2IQvEJPD1eBWe9zvoa+Qwef5p++iu6iRLZIJtU3wUkZp4ErnswCmj9LXDwkagAMpACvjCD40bbz07kwGqeY/Cr1RDa6Bayay89vIxM4Zyl5KGvdtYyUCJuUttJ0/TV6cjEcxNAYOGkdBcE3H1QRrTERI/JYdnXNWD8BVhYBPP8uA69+dFsi1HW/4H39VQTDUdqN+5pkefYcw6qJZM8OXkPSR0+PVaAEYh1JApSTjqHNwX+J1/n5S8VDJh146f8adWnebHAO2NKEHkYzl1AtMPbfeQAvmSZu+yIROyL99iyTPZfL3Lli0JbjYmz2HR4oQ2zofNTWwyDLT4RTdIi9+uz2JZJcicYWaXLQVTS7jl6diIEAz1Xr8mZ1fLszW2bON0JeESox5fwP3yfmgWWL9dmh8k1UBAV92u7w5xR7FA6dpJEuOucm701qWScvpJ2ze06yKORgAtrrRvcNpQxv93KjTN0XVljMp6m/8h2wpKSoCD6/9VztPCaNUFXXon9cHubE=; sessionCode=3506402; TE3=N0:C N1:C N2:C N3:E N4:E N5:C N6:C N7:C N8:C N9:C N10:C N11:C N12:C N13:C N14:C N15:C N16:C N17:C N18:C N19:C N20:C N21:C N22:C N23:C N24:C N25:C N26:C N27:C N28:C N29:C N30:C N31:C N32:C
+3 > Host: localhost:13001
+3 > Upgrade-Insecure-Requests: 1
+3 > User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+
+2015-10-26 11:08:44.075 [dw-30 - GET /kyip/v1/test?anyString=123] INFO  c.k.a.b.external.MainApplication - 4 * Server responded with a response on thread dw-30 - GET /kyip/v1/test?anyString=123
+4 < 404
+
+2015-10-26 11:09:28.030 [dw-33 - GET /kyip/v1/test?anyString=123] INFO  c.k.a.b.external.MainApplication - 5 * Server has received a request on thread dw-33 - GET /kyip/v1/test?anyString=123
+5 > GET http://localhost:13001/kyip/v1/test?anyString=123
+5 > Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+5 > Accept-Encoding: gzip, deflate, sdch
+5 > Accept-Language: en-US,en;q=0.8,ja;q=0.6
+5 > Cache-Control: max-age=0
+5 > Connection: keep-alive
+5 > Cookie: ice.push.browser=1hkatwo17; __lc.visitor_id.2558511=S1376382475.d325797026; ice.connection.contextpath=.; ice.connection.lease=1380099711303; ice.notified.pushids=1hkatwo17%3A-1yu4; ice.pushids=1hkatwo17%3A-1yu5%201hkatwo17%3A-1yu4%201hkatwo17%3A-1yu3; lc_window_state=minimized; oam.Flash.RENDERMAP.TOKEN=gu7acnv6h; gdnC_2132_auth=e080BNMgRbLkzW5VzESeBSbJjLQZ62gpA60Qe3iSTHuktoIoL3%2BIrx93CT9M0%2FWmosQqxnF5fmYh3DatKkjX; gdnC_2132_st_t=1%7C1412741419%7C81ca20a217e36cdb3a670750951b8b87; gdnC_2132_st_p=1%7C1412741421%7C76145a8d6beba3045da0e98f6030367b; gdnC_2132_viewid=tid_1; gdnC_2132_seccode=9.09aeea740c15145f35; gdnC_2132_home_diymode=1; gdnC_2132_lip=%3A%3A1%2C1412741495; TJE=; LtpaToken2=NXXWvV1HeKCe3MJjLC+dFqQ7jdMn1Q6zjWF9bok6u9+cB0wOsq7+Z048JO+JPcttCc9y4aejLPts3EKBgZ2qY3Gp6SWHg9Gteim34/WEupmZI9h4shgyH8/6dMsbOeU5/g/HLW3PupAVTLYThf+MWhflHdMcBjn589jU2K5B2IQvEJPD1eBWe9zvoa+Qwef5p++iu6iRLZIJtU3wUkZp4ErnswCmj9LXDwkagAMpACvjCD40bbz07kwGqeY/Cr1RDa6Bayay89vIxM4Zyl5KGvdtYyUCJuUttJ0/TV6cjEcxNAYOGkdBcE3H1QRrTERI/JYdnXNWD8BVhYBPP8uA69+dFsi1HW/4H39VQTDUdqN+5pkefYcw6qJZM8OXkPSR0+PVaAEYh1JApSTjqHNwX+J1/n5S8VDJh146f8adWnebHAO2NKEHkYzl1AtMPbfeQAvmSZu+yIROyL99iyTPZfL3Lli0JbjYmz2HR4oQ2zofNTWwyDLT4RTdIi9+uz2JZJcicYWaXLQVTS7jl6diIEAz1Xr8mZ1fLszW2bON0JeESox5fwP3yfmgWWL9dmh8k1UBAV92u7w5xR7FA6dpJEuOucm701qWScvpJ2ze06yKORgAtrrRvcNpQxv93KjTN0XVljMp6m/8h2wpKSoCD6/9VztPCaNUFXXon9cHubE=; sessionCode=3506402; TE3=N0:C N1:C N2:C N3:E N4:E N5:C N6:C N7:C N8:C N9:C N10:C N11:C N12:C N13:C N14:C N15:C N16:C N17:C N18:C N19:C N20:C N21:C N22:C N23:C N24:C N25:C N26:C N27:C N28:C N29:C N30:C N31:C N32:C
+5 > Host: localhost:13001
+5 > Upgrade-Insecure-Requests: 1
+5 > User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+
+2015-10-26 11:09:28.030 [dw-33 - GET /kyip/v1/test?anyString=123] INFO  c.k.a.b.external.MainApplication - 6 * Server responded with a response on thread dw-33 - GET /kyip/v1/test?anyString=123
+6 < 404
+
+2015-10-26 11:09:47.559 [dw-30 - GET /kyip/v1/test/html?anyString=123] INFO  c.k.a.b.external.MainApplication - 7 * Server has received a request on thread dw-30 - GET /kyip/v1/test/html?anyString=123
+7 > GET http://localhost:13001/kyip/v1/test/html?anyString=123
+7 > Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+7 > Accept-Encoding: gzip, deflate, sdch
+7 > Accept-Language: en-US,en;q=0.8,ja;q=0.6
+7 > Connection: keep-alive
+7 > Cookie: ice.push.browser=1hkatwo17; __lc.visitor_id.2558511=S1376382475.d325797026; ice.connection.contextpath=.; ice.connection.lease=1380099711303; ice.notified.pushids=1hkatwo17%3A-1yu4; ice.pushids=1hkatwo17%3A-1yu5%201hkatwo17%3A-1yu4%201hkatwo17%3A-1yu3; lc_window_state=minimized; oam.Flash.RENDERMAP.TOKEN=gu7acnv6h; gdnC_2132_auth=e080BNMgRbLkzW5VzESeBSbJjLQZ62gpA60Qe3iSTHuktoIoL3%2BIrx93CT9M0%2FWmosQqxnF5fmYh3DatKkjX; gdnC_2132_st_t=1%7C1412741419%7C81ca20a217e36cdb3a670750951b8b87; gdnC_2132_st_p=1%7C1412741421%7C76145a8d6beba3045da0e98f6030367b; gdnC_2132_viewid=tid_1; gdnC_2132_seccode=9.09aeea740c15145f35; gdnC_2132_home_diymode=1; gdnC_2132_lip=%3A%3A1%2C1412741495; TJE=; LtpaToken2=NXXWvV1HeKCe3MJjLC+dFqQ7jdMn1Q6zjWF9bok6u9+cB0wOsq7+Z048JO+JPcttCc9y4aejLPts3EKBgZ2qY3Gp6SWHg9Gteim34/WEupmZI9h4shgyH8/6dMsbOeU5/g/HLW3PupAVTLYThf+MWhflHdMcBjn589jU2K5B2IQvEJPD1eBWe9zvoa+Qwef5p++iu6iRLZIJtU3wUkZp4ErnswCmj9LXDwkagAMpACvjCD40bbz07kwGqeY/Cr1RDa6Bayay89vIxM4Zyl5KGvdtYyUCJuUttJ0/TV6cjEcxNAYOGkdBcE3H1QRrTERI/JYdnXNWD8BVhYBPP8uA69+dFsi1HW/4H39VQTDUdqN+5pkefYcw6qJZM8OXkPSR0+PVaAEYh1JApSTjqHNwX+J1/n5S8VDJh146f8adWnebHAO2NKEHkYzl1AtMPbfeQAvmSZu+yIROyL99iyTPZfL3Lli0JbjYmz2HR4oQ2zofNTWwyDLT4RTdIi9+uz2JZJcicYWaXLQVTS7jl6diIEAz1Xr8mZ1fLszW2bON0JeESox5fwP3yfmgWWL9dmh8k1UBAV92u7w5xR7FA6dpJEuOucm701qWScvpJ2ze06yKORgAtrrRvcNpQxv93KjTN0XVljMp6m/8h2wpKSoCD6/9VztPCaNUFXXon9cHubE=; sessionCode=3506402; TE3=N0:C N1:C N2:C N3:E N4:E N5:C N6:C N7:C N8:C N9:C N10:C N11:C N12:C N13:C N14:C N15:C N16:C N17:C N18:C N19:C N20:C N21:C N22:C N23:C N24:C N25:C N26:C N27:C N28:C N29:C N30:C N31:C N32:C
+7 > Host: localhost:13001
+7 > Upgrade-Insecure-Requests: 1
+7 > User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+
+2015-10-26 11:09:47.559 [dw-30 - GET /kyip/v1/test/html?anyString=123] INFO  c.k.a.b.external.MainApplication - 8 * Server responded with a response on thread dw-30 - GET /kyip/v1/test/html?anyString=123
+8 < 404
+

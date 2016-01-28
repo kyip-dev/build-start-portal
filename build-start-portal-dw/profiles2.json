@@ -1,0 +1,70 @@
+[
+	{
+		"name": "localhost",
+		"database": [
+			{
+				"name": "znapDatabase",
+				"url": "jdbc:oracle:thin:@localhost:1521:xe",
+				"user": "payme",
+				"password": "payme2012"
+			},
+			{
+				"name": "loginDatabase",
+				"url": "jdbc:oracle:thin:@localhost:1521:xe",
+				"user": "login_db",
+				"password": "login_db"
+			}
+		]
+	},
+	{
+		"name": "tagsit01",
+		"database": [
+			{
+				"name": "znapDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "payme_tagsit01",
+				"password": "payme_tagsit01"
+			},
+			{
+				"name": "loginDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "login_db_tagsit01",
+				"password": "login_db_tagsit01"
+			}
+		]
+	},
+	{
+		"name": "tagsit02",
+		"database": [
+			{
+				"name": "znapDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "payme_tagsit02",
+				"password": "payme_tagsit02"
+			},
+			{
+				"name": "loginDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "login_db_tagsit02",
+				"password": "login_db_tagsit02"
+			}
+		]
+	},
+	{
+		"name": "tagsit03",
+		"database": [
+			{
+				"name": "znapDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "payme_tagsit03",
+				"password": "payme_tagsit03"
+			},
+			{
+				"name": "loginDatabase",
+				"url": "jdbc:oracle:thin:@192.168.2.33:1521:xe",
+				"user": "login_db_tagsit03",
+				"password": "login_db_tagsit03"
+			}
+		]
+	}
+]

@@ -1,0 +1,21 @@
+2015-07-20 12:08:25.506 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2198ms
+2015-07-20 12:08:25.637 [main] INFO  io.dropwizard.assets.AssetsBundle - Registering AssetBundle with name: assets for path /assets/*
+2015-07-20 12:08:25.933 [main] INFO  c.k.a.b.external.MainApplication - run completed
+2015-07-20 12:08:25.936 [main] INFO  io.dropwizard.server.ServerFactory - Starting tags-landing-portal
+2015-07-20 12:08:26.123 [main] INFO  o.e.jetty.setuid.SetUIDListener - Opened application@b5062551{HTTP/1.1}{0.0.0.0:20341}
+2015-07-20 12:08:26.170 [main] INFO  o.e.jetty.setuid.SetUIDListener - Opened admin@b4b658af{HTTP/1.1}{0.0.0.0:20340}
+2015-07-20 12:08:26.174 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.9.v20150224
+2015-07-20 12:08:26.985 [main] INFO  i.d.jersey.DropwizardResourceConfig - The following paths were found for the configured resources:
+
+    GET     /kyip/v1/build/projects/{projectName} (com.kyip.api.buildstartportal.external.resource.BuildResourceImpl)
+
+2015-07-20 12:08:26.993 [main] INFO  o.e.j.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@-1cb793e5{/,null,AVAILABLE}
+2015-07-20 12:08:26.997 [main] INFO  i.dropwizard.setup.AdminEnvironment - tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+2015-07-20 12:08:27.004 [main] INFO  o.e.j.server.handler.ContextHandler - Started i.d.j.MutableServletContextHandler@4a69bf5a{/,null,AVAILABLE}
+2015-07-20 12:08:27.440 [main] INFO  o.e.jetty.server.ServerConnector - Started application@b5062551{HTTP/1.1}{0.0.0.0:20341}
+2015-07-20 12:08:27.916 [main] INFO  o.e.jetty.server.ServerConnector - Started admin@b4b658af{HTTP/1.1}{0.0.0.0:20340}
+2015-07-20 12:08:27.916 [main] INFO  org.eclipse.jetty.server.Server - Started @4609ms

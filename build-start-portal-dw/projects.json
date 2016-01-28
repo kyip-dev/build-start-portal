@@ -1,0 +1,98 @@
+[
+	{
+		"name": "consumer-user",
+		"path": "C:/workspaceGit/consumer-user-module",
+		"port": "20261",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "powa-mobile",
+		"path": "C:/workspaceGit/powa-mobile",
+		"port": "20241",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "workflow",
+		"path": "C:/workspaceGit/powa-tags-workflow",
+		"port": "20251",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "payment",
+		"path": "C:/workspaceGit/pt2-core-app-payment",
+		"port": "20301",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "common-module",
+		"path": "C:/workspaceGit/pt2-core-app-common",
+		"port": "20161",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "dw-common",
+		"path": "C:/workspaceGit/dw-common",
+		"port": "",
+		"database": []
+	},
+	{
+		"name": "merchant-user",
+		"path": "C:/workspaceGit/merchant-user-module",
+		"port": "20151",
+		"database": [{"name": "znapDatabase"}, {"name": "loginDatabase"}]
+	},
+	{
+		"name": "reseller-portal",
+		"path": "C:/workspaceGit/reseller-portal",
+		"port": "20131",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "powa-mobile-client",
+		"path": "C:/workspaceGit/powa-mobile-client",
+		"port": "",
+		"database": []
+	},
+	{
+		"name": "tags-details",
+		"path": "C:/workspaceGit/pt2-core-app-tags-details",
+		"port": "20331",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "landing-portal",
+		"path": "C:/workspaceGit/pt2-core-web-tags-landing-portal",
+		"port": "20341",
+		"database": []
+	},
+	{
+		"name": "aws-broker",
+		"path": "C:/workspaceGit/aws-service-broker",
+		"port": "20101",
+		"database": []
+	},
+	{
+		"name": "powa-trigger",
+		"path": "C:/workspaceGit/powa-trigger",
+		"port": "20271",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "powa-order",
+		"path": "C:/workspaceGit/powa-order",
+		"port": "20191",
+		"database": []
+	},
+	{
+		"name": "powa-order-external",
+		"path": "C:/workspaceGit/powa-order-external",
+		"port": "20231",
+		"database": [{"name": "database"}]
+	},
+	{
+		"name": "month-calculator",
+		"path": "C:/workspaceDemo/monthCalculator",
+		"port": "13000",
+		"database": []
+	}
+]

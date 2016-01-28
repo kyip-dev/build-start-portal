@@ -1,0 +1,36 @@
+# please read https://mpayme.atlassian.net/wiki/display/IT/Dropwizard+-+Property+Keys
+# appname: __appname
+  
+logging:
+  level: INFO
+
+  loggers:
+    com.kyip: DEBUG
+
+  appenders:
+    - type: console
+      logFormat: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n"
+    - type: file
+      logFormat: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n"
+      currentLogFilename: __pt_log_file_path/__appname/__appname.log
+      threshold: ALL
+      archive: true
+      archivedLogFilenamePattern: __pt_log_file_path/__appname/__appname-%d{yyyy-MM-dd}.log
+      archivedFileCount: 50
+      timeZone: UTC
+
+server:
+  applicationConnectors:
+    - type: http
+      port: __pt_tcp_port_http
+  adminConnectors:
+    - type: http
+      port: __pt_tcp_port_admin
+
+viewRendererConfiguration:
+  .ftl:
+    strict_syntax: yes
+    whitespace_stripping: yes
+    
+projectRegistries: http://localhost:20161
+profileRegistries: http://localhost:20161

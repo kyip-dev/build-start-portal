@@ -1,0 +1,36 @@
+# please read https://mpayme.atlassian.net/wiki/display/IT/Dropwizard+-+Property+Keys
+# appname: build-start-portal
+  
+logging:
+  level: INFO
+
+  loggers:
+    com.kyip: DEBUG
+
+  appenders:
+    - type: console
+      logFormat: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n"
+    - type: file
+      logFormat: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n"
+      currentLogFilename: ./logs/build-start-portal/build-start-portal.log
+      threshold: ALL
+      archive: true
+      archivedLogFilenamePattern: ./logs/build-start-portal/build-start-portal-%d{yyyy-MM-dd}.log
+      archivedFileCount: 50
+      timeZone: UTC
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 13001
+  adminConnectors:
+    - type: http
+      port: 13002
+
+viewRendererConfiguration:
+  .ftl:
+    strict_syntax: yes
+    whitespace_stripping: yes
+    
+projectRegistries: http://localhost:20161
+profileRegistries: http://localhost:20161

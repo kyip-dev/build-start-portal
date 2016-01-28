@@ -1,0 +1,81 @@
+function clock() {
+	var ws = new WebSocket("ws://localhost:13001/clock");
+
+	ws.onmessage = function(event) {
+		var mySpan = document.getElementById("messageGoesHere");
+		mySpan.innerHTML = event.data;
+	};
+
+	ws.onerror = function(event) {
+		console.log("Error ", event)
+	}
+}
+
+
+
+	var URL = "ws://localhost:13001/messages/send";
+	var websocket;
+
+	$(document).ready(function() {
+		connect();
+	});
+ 
+	function connect() {
+		websocket = new WebSocket(URL);
+		websocket.onopen = function(evnt) {
+			onOpen(evnt)
+		};
+		websocket.onmessage = function(evnt) {
+			onMessage(evnt)
+		};
+		websocket.onerror = function(evnt) {
+			onError(evnt)
+		};
+	}
+	function sendMessage() {
+		websocket.send($("#message").val());
+	}
+	function sendMessageByRest() {
+		$.ajax({
+			url: "/kyip/v1/messages",
+			type: "POST",
+			contentType: "application/json",
+			data: JSON.stringify($("#message").val()),
+			dataType: 'json',
+			success: function(data) {
+				console.log('success to send message');
+			},
+			error : function(data) {
+				console.log('fail to send message');
+			}
+		});
+	}
+	function onOpen() {
+		updateStatus("connected")
+	}
+	function onMessage(evnt) {
+		if (typeof evnt.data == "string") {
+
+			$("#received_messages").append(
+					$('<tr/>').append($('<td/>').text("1")).append(
+							$('<td/>').text(
+									evnt.data.substring(0, evnt.data
+											.indexOf(":")))).append(
+							$('<td/>')
+									.text(
+											evnt.data.substring(evnt.data
+													.indexOf(":") + 1))));
+		}
+	}
+	function onError(evnt) {
+		alert('ERROR: ' + evnt.data);
+	}
+	function updateStatus(status) {
+		if (status == "connected") {
+			$("#status").removeClass(function(index, css) {
+				return (css.match(/\blabel-\S+/g) || []).join(' ')
+			});
+			$("#status").text(status).addClass("label-success");
+		}
+	}
+
